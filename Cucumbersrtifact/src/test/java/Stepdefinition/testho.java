@@ -43,15 +43,15 @@ public class testho {
 	public void user_clicks_a_product_and_add_to_cart() {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		driver.findElement(By.xpath(("/html/body/div[1]/div[9]/div[4]/div/div[1]/div/div/div[2]/a/picture/img"))).click();
-		driver.findElement(By.xpath(("/html/body/div[1]/div[5]/div/div[2]/div[2]/div[1]/div[5]/div[2]/div/button"))).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.cssSelector(("div[id='product-sizes-overlayP6488'] div[class='product-sizes__overflow'] div:nth-child(1) div:nth-child(2) div:nth-child(2) button:nth-child(1)"))).click();
-		driver.findElement(By.cssSelector(("body > div:nth-child(25) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(3)"))).click();
-		driver.findElement(By.xpath("//a[@role='button']"));
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		System.out.println("launch complete");
-		driver.findElement(By.cssSelector("a[role='button']")).click();
+		//driver.findElement(By.xpath(("/html/body/div[1]/div[9]/div[4]/div/div[1]/div/div/div[2]/a/picture/img"))).click();
+		//driver.findElement(By.xpath(("/html/body/div[1]/div[5]/div/div[2]/div[2]/div[1]/div[5]/div[2]/div/button"))).click();
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.findElement(By.cssSelector(("div[id='product-sizes-overlayP6488'] div[class='product-sizes__overflow'] div:nth-child(1) div:nth-child(2) div:nth-child(2) button:nth-child(1)"))).click();
+		//driver.findElement(By.cssSelector(("body > div:nth-child(25) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(3)"))).click();
+		//driver.findElement(By.xpath("//a[@role='button']"));
+		//driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
+		//System.out.println("launch complete");
+		//driver.findElement(By.cssSelector("a[role='button']")).click();
 		//driver.findElement(By.xpath(("/html/body/div[6]/div[1]/div/div/div/div[1]/div[2]/div[1]/div[2]/div[8]"))).click();
 		//driver.navigate().to("https://suitsupply.com/on/demandware.store/Sites-INT-Site/en_NL/Product-Variation?dwvar_P6488_size_suits=46&pid=P6488&quantity=1");
 	}
